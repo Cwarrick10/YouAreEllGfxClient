@@ -4,7 +4,7 @@ let userId = "Cwarrick";
 const messageService = new MessageService(userId);
 
 window.addEventListener("load", function () {
-   document.getElementById("greeting").innerHTML = 'Welcome ${userId}!';
+   document.getElementById("greeting").innerHTML = 'Welcome Cwarrick';
    messageService.getAllMessages()
    .then(successCallback, errorCallback);
 
